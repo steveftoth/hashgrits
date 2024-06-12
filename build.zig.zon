@@ -1,0 +1,14 @@
+.{
+    .name = "my_extension",
+    .version = "0.1.0",
+    .paths = .{
+        "extension",
+        "src",
+    },
+    .dependencies = .{
+        .pgzx = .{
+            .url = "https://github.com/xataio/pgzx/archive/main.tar.gz",
+            .hash = "122077407adcc20142e97454208dc9fcaa32c32feb3d3eeb5904d879b61d8a27be25"
+        },
+    },
+}
